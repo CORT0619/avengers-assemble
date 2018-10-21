@@ -1,9 +1,9 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 200px);
+  grid-template-columns: repeat(6, 310px);
   /* background-color: #2196f3; */
   /* padding: 10px; */
-  height: 1300px;
+  height: 420px;
   grid-gap: 20px;
 }
 
