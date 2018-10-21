@@ -1,6 +1,13 @@
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196f3;
-  padding: 10px;
+  grid-template-columns: repeat(6, 200px);
+  /* background-color: #2196f3; */
+  /* padding: 10px; */
+  height: 1300px;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #000;
+  border-radius: 3px;
 }
